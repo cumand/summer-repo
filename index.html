@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyrus's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f72775769c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav>
+            <img src="image/HiddenGeniusLogo.jpeg" alt="The Hidden Genius Project Logo"class="logo">
+            <ul>
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#my-hobbies">Hobbies</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+            </ul>
+          </nav>
+          <div class="header-text">
+            <p>web Developer</p>
+            <h1>Hello<br>My name is <span>Cyrus</span> White </h1>
+          </div>
+          
+        </div>
+    </div>
+<!-- ---------about--------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Screenshot 2024-07-11 at 11.54.17 AM.png" alt="picture of Cyrus">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">about me</h1>
+            <p>The pain itself is important, it will be followed by the education system. But there is no level,
+              The developer should be a smart person, an element of the company. Kids
+              they dwell in disease, old age, and poverty, and hunger and misery
+              need Mauris eleifend great that before the valley of the land. Everyone in the salad
+              sad, said wise and, free layer</p>
+            <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+            <p class="tab-links" onclick="opentab('experience')">experience</p>
+          </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Web design</li>
+                <li><span></span></li>
+                <li><span></span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022-2023</span><br>computer sciences class</li>
+                <li><span></span></li>
+                <li><span></span></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------ hobbies ------------- -->
+    <div id="my-hobbies">
+      <div id="container">
+        <h1 class="sub-title">My hobbies</h1>
+        <div class="hobbies-list">
+          <div>
+            <i class="fas fa-gamepad"></i>
+            <h2>Video games</h2>
+            <p>One of my main hobbies is playing and watching gaming content.
+             Some video games I play are Roblox, Rust, and other FPS games.</p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-seedling"></i>
+            <h2>Wood Working</h2>          
+             <p>Another one of one of my hobbies is woodworking.</p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------portfolio------ -->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My achievement</h1>
+
+    <div class="achievement-list">
+
+      <div class="achievement">
+        <img src="images/HiddenGeniusLogo.jpeg">
+        <div class="layer">
+          <h3>Getting into HGP</h3>
+          <p> I think that one of  my most proud achevements is getting into this program.</p>
+          <a href="#">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="achievement">
+        <img src="images/cyrus_7:10.png">
+        <div class="layer">
+          <h3>placeholder</h3>
+          <p>placeholder</p>
+          <a href="#">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+ 
+      <div class="achievement">
+        <img src="images/cyrus_7:10.png">
+        <div class="layer">
+          <h3>placeholder</h3>
+          <p>placeholder</p>
+          <a href="#">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+<!-- ----------------contact------------------ -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1>Contact Me</h1>
+        <p><i class="fa-regular fa-paper-plane"></i>placeholder@email.com</p>
+        <p><i class="fa-solid fa-phone"></i>Phone:______</p>
+        <div class="social-icons">
+          <a href="https://fontawesome.com/icons/envelopes-bulk?f=classic&s=solid"><i class="fa-solid fa-envelopes-bulk"></i></a>
+
+          <a href="https://fontawesome.com/icons/square-youtube?f=brands&s=solid"><i class="fa-brands fa-square-youtube"></i></a>
+
+          <a href="https://fontawesome.com/icons/facebook?f=brands&s=solid"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="https://fontawesome.com/icons/download?f=classic&s=solid" class="btn btn2">download <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name= "name" placeholder= "your name" required>
+          <input type="email" name= "email" placeholder= "your email" required> 
+          <textarea name="message" rows="6" placeholder="your message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname){
+
+        for (tablink of tablinks)
+        {
+          tablink.classList.remove("active-link");
+        
+        }
+        for (tabcontent of tabcontents)
+        {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxDfgOVxYGvzeFhdQ1iFrX2wj7zOTaIIxMPYuJ8XhcX9GXwILvvXsLEv3cYBGQh0v8-zQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      const msg = document.getElementById("msg")
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },10000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html lang="en">
